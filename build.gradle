@@ -1,0 +1,7 @@
+task hello {
+    group 'custom'
+    description 'This is an example of how to make a custom task'
+    doLast {
+        println "Hello World!!!"
+    }
+}
